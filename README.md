@@ -90,18 +90,17 @@ Instalação do Painel WEB de Gerenciamento SSH 3.0
 
 • Apos inserir o comando acima vai abrir um documento para edição, copie o texto abaixo
 
- * * * * * root /usr/bin/php /var/www/html/pages/system/cron.php 
- 
- * * * * * root /usr/bin/php /var/www/html/pages/system/cron.ssh.php 
- 
- * * * * * root /usr/bin/php /var/www/html/pages/system/cron.sms.php 
- 
- * * * * * root /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
- 
- 10 * * * * root /usr/bin/php /var/www/html/pages/system/cron.servidor.php
+* * * * * root /usr/bin/php /var/www/html/pages/system/cron.php 
+* * * * * root /usr/bin/php /var/www/html/pages/system/cron.ssh.php 
+* * * * * root /usr/bin/php /var/www/html/pages/system/cron.sms.php 
+* * * * * root /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
+
+10 * * * * root /usr/bin/php /var/www/html/pages/system/cron.servidor.php
 
 • As bolinhas e quadrados a cima deverão ser substituidos por *
+
 • Cole no documento na ultima linha.
+
 • Apos colar o comando aperte Ctrl+X e escola opção Y depois aperte Enter
 
 11 - Alterando a Data e a Hora
