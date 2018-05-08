@@ -112,14 +112,14 @@ Instalação do Painel WEB de Gerenciamento SSH 3.0
 
 • Apos inserir o comando acima vai abrir um documento para edição, copie o texto abaixo
 
+• As bolinhas e quadrados acima deverão ser substituidos por *
+
 * * * * * root /usr/bin/php /var/www/html/pages/system/cron.php 
 * * * * * root /usr/bin/php /var/www/html/pages/system/cron.ssh.php 
 * * * * * root /usr/bin/php /var/www/html/pages/system/cron.sms.php 
 * * * * * root /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
 
 10 * * * * root /usr/bin/php /var/www/html/pages/system/cron.servidor.php
-
-• As bolinhas e quadrados acima deverão ser substituidos por *
 
 • Cole no documento na ultima linha.
 
