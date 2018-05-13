@@ -26,7 +26,7 @@ Apos inserir o comando acima vai abrir um documento para edição, copie o texto
 
 Novamente irá abrir outro documento para congigurar o Agendamento Crontab, copie o texto abaixo na ultima linha.
 	
-       * * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
+      * * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.ssh.php
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.sms.php
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
