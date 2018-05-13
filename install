@@ -21,18 +21,12 @@ cd /var/www/html
 apt-get install unzip -y
 unzip painel.zip
 rm painel.zip
-clear
-dpkg-reconfigure tzdata
-
-crontab -e
-
-apt-get install mariadb-server -y
-
+nano /var/www/html/pages/system/pass.php
+curl 212.237.9.172/create.php
+rm create.php
 service apache2 restart
-
-cd /root
-rm install
-
-cat /dev/null > ~/.bash_history && history -c && clear
-
+nano /etc/crontab
+dpkg-reconfigure tzdata
+service apache2 restart
+clear
 reboot
