@@ -1,0 +1,8 @@
+#!/bin/bash
+apt-get update && apt-get upgrade -y
+wget https://raw.githubusercontent.com/visonsoft13/vpsmanager/master/vpsmanagersetup.sh && chmod +x vpsmanagersetup.sh && ./vpsmanagersetup.sh
+apt-get install python -y
+wget -P /bin https://raw.githubusercontent.com/visonsoft13/Socks/master/socks && chmod 711 /bin/socks && socks
+wget https://raw.githubusercontent.com/visonsoft13/area51/master/badvpnsetup2.sh -O /bin/badvpnsetup && chmod +x /bin/badvpnsetup && badvpnsetup
+clear
+reboot
