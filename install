@@ -20,7 +20,7 @@ apt-get install unzip -y
 unzip painel.zip
 rm painel.zip
 clear
-mysql -h localhost -u root -proot -e "CREATE DATABASE bd_dados"
+mysql -h localhost -u root -p03101994 -e "CREATE DATABASE bd_dados"
 dpkg-reconfigure tzdata
 
 crontab -e
