@@ -19,30 +19,18 @@ Vai surgir varias perguntas com Y/N digite a letra Y e pressione enter.
 
 Apos inserir o comando acima vai abrir um documento para edição, copie o texto abaixo na ultima linha.
 
-<?php $pass = '03101994';?>
+    <?php $pass = '03101994';?>
 
 • Apos colar o comando aperte Ctrl+X e escola opção Y depois aperte Enter
 
 
 Novamente irá abrir outro documento para congigurar o Agendamento Crontab, copie o texto abaixo na ultima linha.
 	
-	* * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
+        * * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.ssh.php
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.sms.php
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
 	10 * * * * /usr/bin/php /var/www/html/pages/system/cron.servidor.php
-
-* * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
-
-* * * * * /usr/bin/php /var/www/html/pages/system/cron.ssh.php 
-
-* * * * * /usr/bin/php /var/www/html/pages/system/cron.sms.php 
-
-* * * * * /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
-
-10 * * * * /usr/bin/php /var/www/html/pages/system/cron.servidor.php
-
-Os quadradinos e bolinhas acima deverão ser subtituidos por * *
 
 • Cole no documento na ultima linha.
 
