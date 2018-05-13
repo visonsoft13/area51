@@ -17,22 +17,20 @@ Sempre que solicitar login e senha digite 03101994 tanto no login quanto na senh
 
 Vai surgir varias perguntas com Y/N digite a letra Y e pressione enter.
 
-Apos inserir o comando acima vai abrir um documento para edição, copie o texto abaixo na ultima linha.
+Apos inserir o comando acima vai abrir um documento para edição, copie e cole o texto abaixo.
 
     <?php $pass = '03101994';?>
 
 • Apos colar o comando aperte Ctrl+X e escola opção Y depois aperte Enter
 
 
-Novamente irá abrir outro documento para congigurar o Agendamento Crontab, copie o texto abaixo na ultima linha.
+Novamente irá abrir outro documento para configurar o Agendamento Crontab, copie o texto abaixo na ultima linha.
 	
     * * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.ssh.php
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.sms.php
 	* * * * * /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
 	10 * * * * /usr/bin/php /var/www/html/pages/system/cron.servidor.php
-
-• Cole no documento na ultima linha.
 
 • Apos colar o comando aperte Ctrl+X e escola opção Y depois aperte Enter
 
