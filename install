@@ -16,7 +16,7 @@ php -m |grep ssh2
 service apache2 restart
 mysql -h localhost -u root -p03101994 -e "CREATE DATABASE ssh"
 service apache2 restart
-wget -O painel.zip https://www.dropbox.com/s/f2yo8u7b42imysv/painelssh.zip?dl=0 && mv painel.zip /var/www/html
+wget -O painel.zip https://www.dropbox.com/s/29iubxuis1d1nm5/painelssh2.zip?dl=0 && mv painel.zip /var/www/html
 cd /var/www/html
 apt-get install unzip -y
 unzip painel.zip
