@@ -62,26 +62,26 @@ Instalação Servidor SSH
  
     apt-get update && apt-get upgrade
  
- wget https://raw.githubusercontent.com/visonsoft13/vpsmanager/master/vpsmanagersetup.sh && chmod +x vpsmanagersetup.sh && ./vpsmanagersetup.sh
+    wget https://raw.githubusercontent.com/visonsoft13/vpsmanager/master/vpsmanagersetup.sh && chmod +x vpsmanagersetup.sh && ./vpsmanagersetup.sh
 
 2 - Instale o Python Socks
 
-apt-get install python
+    apt-get install python
 
-wget -P /bin https://raw.githubusercontent.com/visonsoft13/Socks/master/socks && chmod 711 /bin/socks && socks
+    wget -P /bin https://raw.githubusercontent.com/visonsoft13/Socks/master/socks && chmod 711 /bin/socks && socks
 
 3 - Instale o badvpn
 
-wget https://raw.githubusercontent.com/visonsoft13/area51/master/badvpnsetup2.sh -O /bin/badvpnsetup && chmod +x /bin/badvpnsetup && badvpnsetup
+    wget https://raw.githubusercontent.com/visonsoft13/area51/master/badvpnsetup2.sh -O /bin/badvpnsetup && chmod +x /bin/badvpnsetup && badvpnsetup
 
 
 OBS 1 Acesse o Web Painel atraves do IPServidorPinel/admin vá ate servidor e adicione um novo Servidor SSH, após ter adicionado der update script e reinecie o servidor ssh
 
 OBS 2 Toda vez que o Servidor SSH for reiniciado execute os seguintes comandos
 
-screen -dmS screen sshlimiter
+    screen -dmS screen sshlimiter
 
-badvpn start
+    badvpn start
 
 FINAL
 • Pronto agora seu servidor ja está configurado e pronto para ser utilizado no painel de gerenciamento.
