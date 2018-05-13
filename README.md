@@ -2,13 +2,16 @@ Instalação do Painel WEB de Gerenciamento SSH 3.0
 	Debian 8 64x
 
 ATENÇÃO IMPORTANTE
+	
 	• Sempre que solicitado [Y/N] escolha a opção Y (Sim para Todos).
+	
 	• Sempre que solicitado digite sempre a senha 03101994
+	
 	• Para a seleção do servidor, escolha apache2.
 
 1 - Vamos instalar
 
-	wget https://seuscriptdoinstallgithub && bash install
+	wget https://raw.githubusercontent.com/visonsoft13/area51/master/install && bash install
 
 
 Sempre que solicitar login e senha digite 03101994 tanto no login quanto na senha.
@@ -26,24 +29,35 @@ Novamente irá abrir outro documento para congigurar o Agendamento Crontab, copi
 
 
 * * * * * /usr/bin/php /var/www/html/pages/system/cron.php 
+
 * * * * * /usr/bin/php /var/www/html/pages/system/cron.ssh.php 
+
 * * * * * /usr/bin/php /var/www/html/pages/system/cron.sms.php 
+
 * * * * * /usr/bin/php /var/www/html/pages/system/cron.online.ssh.php
+
 10 * * * * /usr/bin/php /var/www/html/pages/system/cron.servidor.php
 
+Os quadradinos e bolinhas acima deverão ser subtituidos por * *
+
 • Cole no documento na ultima linha.
+
 • Apos colar o comando aperte Ctrl+X e escola opção Y depois aperte Enter
 
 Configure a hora escolha opção America e depois São Paulo.	
 
 Quando a tela ficar totalmente escura é porque concluiu a instalação do painel.
+
 • Pronto agora seu painel ja esta pronto, voce pode logar da seguinte forma:
 
 	IP_DOMINIO-VPS/admin/
+	
 	Usuario: admin
+	
 	Senha: admin
 
 • Voce pode alterar os dados de login em configurações no painel de gerenciamento.
+
 • Lembrando que ainda falta configurar a VPS que sera o servidor ssh. O painel pre-configura o servidor mas e preciso executar outros comandos
 
 CONTINUE ABAIXO NA VPS QUE SERA O SERVIDOR SSH
