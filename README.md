@@ -6,8 +6,7 @@ ATENÇÃO IMPORTANTE
 	• Sempre que solicitado [Y/N] escolha a opção Y (Sim para Todos).
 	
 	• Sempre que solicitado digite sempre a senha 03101994
-	
-	• Para a seleção do servidor, escolha apache2.
+	.
 
 1 - Vamos instalar
 
