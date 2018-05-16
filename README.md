@@ -86,11 +86,17 @@ OBS 2 Toda vez que o Servidor SSH for reiniciado execute os seguintes comandos
 FINAL
 • Pronto agora seu servidor ja está configurado e pronto para ser utilizado no painel de gerenciamento.
 
-
-
-
-
-
 Para acesso de revenda ->  ip/login.php
+
+Para limpar todo os comandos de um vps
+
+    cat /dev/null > ~/.bash_history && history -c && clear
+    
+Pata ver o taxa de tráfego da vps
+
+    apt-get install nload
+    nload
+    
+ 
 
 
