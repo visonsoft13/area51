@@ -73,7 +73,17 @@ Instalação Servidor SSH
 3 - Instale o badvpn
 
     wget https://raw.githubusercontent.com/visonsoft13/area51/master/badvpnsetup2.sh -O /bin/badvpnsetup && chmod +x /bin/badvpnsetup && badvpnsetup
-
+ 4 - Instale backup com senha e login dos usuarios
+         
+    wget https://raw.githubusercontent.com/visonsoft13/vpsmanager/master/userbackup.sh -O /bin/userbackup
+    
+    chmod +x /bin/userbackup
+    
+    tput setaf 2 ; tput bold ; printf '%s' "userbackup " ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Cria uma cópia de todos os usuários e senhas" ; echo ""
+    
+ Para criar ou fazer um backup Digite
+ 
+    userbackup
 
 OBS 1 Acesse o Web Painel atraves do IPServidorPinel/admin vá ate servidor e adicione um novo Servidor SSH, após ter adicionado der update script e reinecie o servidor ssh
 
