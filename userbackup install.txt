@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://raw.githubusercontent.com/visonsoft13/vpsmanager/master/userbackup.sh -O /bin/userbackup
+chmod +x /bin/userbackup
+tput setaf 2 ; tput bold ; printf '%s' "userbackup " ; tput setaf 7 ; printf '%s' "- " ; tput setaf 3 ; echo "Cria uma cópia de todos os usuários e senhas" ; echo ""
+
